@@ -1,4 +1,4 @@
-/* Style the buttons that are used to open and close the accordion panel */
+
 .accordion {
     background-color: #357c7a;
     color: white;
@@ -11,6 +11,7 @@
     transition: 0.4s;
     border-radius: 20px;
     margin: 10px;
+    border: #1c3f3e;
   }
   
   .active, .accordion:hover {
@@ -29,11 +30,11 @@
   }
 
   .wrapper {
-    /*background-color: #357c7a;*/
     padding: 20px;
     width: 75%;
     margin: auto;
-
+    background-color: #fff;
+    border-radius: 20px;
   }
 
   .title {
@@ -56,7 +57,17 @@
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  }
 
+  .title{
+    margin: 5px;
+    background-image: url('bgimg.jpg');
+    background-size: contain;
+    color: #fff;
+    border-radius: 20px;
 
   }
 
+  body{
+    background-color:slategray;
+  }
